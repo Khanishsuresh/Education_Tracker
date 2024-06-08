@@ -1,0 +1,11 @@
+.registration-wrapper{
+    width:100%;
+    height:100vh;
+    display: flex;
+    background-color:#fff !important;
+}
+.registration-container{
+    width:100%;
+    height:100%;
+    background-color:lavender !important;
+}

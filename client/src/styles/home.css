@@ -1,0 +1,71 @@
+.home-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  .home-wrapper .sidebar {
+    transition: transform 0.3s ease;
+  }
+  .home-sub-wrapper {
+    background-color: #fff !important;
+    padding: 8px;
+  }
+  .home-container {
+    background-color: #fff !important;
+    color: #2f2f2f !important;
+  }
+  .home-main-content {
+    background-color: lavender !important;
+    border-radius: 8px !important;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  .home-main-header {
+    background-color: transparent !important;
+  }
+  .main-content {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: lavender !important;
+  }
+  .main-content::-webkit-scrollbar {
+    display: none;
+  }
+  .main-content {
+    transition: margin-left 0.3s ease;
+  }
+  
+  .md\:ml-64 {
+    margin-left: 16rem; /* 64 * 0.25rem */
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  .certificates::-webkit-scrollbar {
+    display: none;
+  }
+  .awards::-webkit-scrollbar {
+    display: none;
+  }
+  .project::-webkit-scrollbar {
+    display: none;
+  }
+  .papers::-webkit-scrollbar {
+    display: none;
+  }
