@@ -19,8 +19,8 @@
 
 # # # Set up Google API key
 # # import os
-# # os.environ["GOOGLE_API_KEY"] = "AIzaSyAD3J_Se65ToQMrlTT-NpZfmuZnUg40-wA"
-# # api_key = "AIzaSyDZix9WHZ1m9Wxc17EGGSXjZVIhM0Uyw94"
+# # os.environ["GOOGLE_API_KEY"] = "API_KEY"
+# # api_key = "API_KEY"
 
 # # # Initialize GooglePalm with API key
 # # llm = GooglePalm(api_key=api_key, temperature=0.6)
@@ -317,8 +317,8 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 # Set up Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAD3J_Se65ToQMrlTT-NpZfmuZnUg40-wA"
-api_key = "AIzaSyDZix9WHZ1m9Wxc17EGGSXjZVIhM0Uyw94"
+os.environ["GOOGLE_API_KEY"] = "API_KEY"
+api_key = "API_KEY"
 
 app = Flask(__name__)
 CORS(app)
